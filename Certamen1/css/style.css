@@ -16,6 +16,12 @@
     margin: 10px;
 }
 
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer{
     height: 20vh;
     background-color: #FAE2E2;
@@ -34,13 +40,8 @@ footer{
     align-items: center;
 }
 
-#redes-sociales div{
-    height: 70%;
-}
-
-
 #redes-sociales img{
-    height: 100%;
+    height: 70%;
 }
 
 #redes-sociales img:hover{
@@ -59,3 +60,9 @@ footer{
 #extra img{
     height: 50%;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
